@@ -1,0 +1,100 @@
+@import '../base/variables';
+
+.main {
+    justify-content: center;
+    text-align: center;
+    background-color: $bg-color-main;
+
+    .tituloMain {
+        font-family: tahoma;
+        font-size: 20px;
+        color: $bg-color-general;
+        margin: 20px;
+    }
+
+    .noticias {
+        .noticia {
+            .cardsNoticia {
+                width: 30%;
+                margin: 10px;
+                display: inline-flex;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+
+                .conNoticia {
+                    color: white;
+                    background-color: rgb(0, 50, 144, .4);
+                    cursor: pointer;
+                }
+            }
+        }
+
+        /*******media queris**********/
+        /*mobile*/
+        @media (max-width: 450px) {
+            .card-title {
+                font-size: small;
+            }
+
+            .card-text {
+                display: none !important;
+            }
+
+        }
+
+        /*tablet*/
+        @media (max-width: 450px) {
+            .card-title {
+                font-size: small;
+            }
+
+            .card-text {
+                display: none !important;
+            }
+
+        }
+    }
+
+    .calendarioEventos {
+        .tituloMain-1 {
+            font-family: tahoma;
+            font-size: 20px;
+            color: black;
+            margin: 30px;
+        }
+
+        .proximoEvento {
+            margin: 20px;
+            display: inline-flex;
+            cursor: pointer;
+            height: 250px;
+            width: 250px;
+        }
+
+        .calendarioEventos {
+            margin: 20px;
+            display: inline-flex;
+            cursor: pointer;
+            height: 250px;
+            width: 250px;
+        }
+
+        /*mobile*/
+        @media (max-width: 450px) {
+
+            .estrella {
+                height: 14px;
+            }
+        }
+
+        /*tablet*/
+        @media (max-width: 450px) {
+            .estrella {
+                height: 14px;
+            }
+        }
+    }
+
+}
