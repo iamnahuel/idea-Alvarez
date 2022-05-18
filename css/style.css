@@ -24,6 +24,37 @@ header div a img:hover {
   width: 90px;
 }
 
+.footer {
+  background: #003290;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  /*alineamos los elementos de forma horizontal*/
+  justify-content: space-around;
+  /*alineamos los elemnetos de forma vertival*/
+  align-items: center;
+}
+.footer .logoFooter {
+  margin-left: 30px;
+  font-family: tahoma;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.footer .logoFooter .imagenFooter {
+  width: 60px;
+  height: 69px;
+}
+.footer .iconosRedes {
+  justify-content: center;
+}
+.footer .iconosRedes .iconosFooter {
+  margin-left: 10px;
+  margin-right: 0px;
+  width: 40px;
+}
+
 /*variables*/
 .nav {
   position: sticky;
@@ -51,6 +82,91 @@ header div a img:hover {
 }
 .nav .navBarMenu .navMenu .collapse .navbar-nav .actual {
   background-color: #f39608;
+}
+
+/*variables*/
+/*Mapas*/
+/*extends*/
+.main {
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  background-color: #e5e8f0;
+}
+.main .tituloMain {
+  font-family: tahoma;
+  font-size: 20px;
+  color: #003290;
+  margin: 20px;
+}
+.main .noticias {
+  /*******media queris**********/
+  /*mobile*/
+  /*tablet*/
+}
+.main .noticias .noticia .cardsNoticia {
+  width: 30%;
+  margin: 10px;
+  display: inline-flex;
+}
+.main .noticias .noticia .cardsNoticia:hover {
+  opacity: 0.7;
+}
+.main .noticias .noticia .cardsNoticia .conNoticia {
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 450px) {
+  .main .noticias .card-title {
+    font-size: small;
+  }
+  .main .noticias .card-text {
+    display: none !important;
+  }
+}
+@media (max-width: 450px) {
+  .main .noticias .card-title {
+    font-size: small;
+  }
+  .main .noticias .card-text {
+    display: none !important;
+  }
+}
+.main .calendarioEventos {
+  /*mobile*/
+  /*tablet*/
+}
+.main .calendarioEventos .tituloMain-1 {
+  font-family: tahoma;
+  font-size: 20px;
+  color: black;
+  margin: 30px;
+}
+.main .calendarioEventos .proximoEvento {
+  margin: 20px;
+  display: inline-flex;
+  cursor: pointer;
+  height: 250px;
+  width: 250px;
+}
+.main .calendarioEventos .calendarioEventos {
+  margin: 20px;
+  display: inline-flex;
+  cursor: pointer;
+  height: 250px;
+  width: 250px;
+}
+@media (max-width: 450px) {
+  .main .calendarioEventos .estrella {
+    height: 14px;
+  }
+}
+@media (max-width: 450px) {
+  .main .calendarioEventos .estrella {
+    height: 14px;
+  }
 }
 
 * {

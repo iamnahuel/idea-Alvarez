@@ -1,0 +1,74 @@
+ En el archivo index.html sumé el SEO con las siguientes características:
+
+•	Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Mantente conectado con tu institución.
+Toda la información al instante
+Resultados en vivo, próximos eventos, información deportiva, actividades grupales o individuales…"
+•	Titulos multimedia: le agregue a las imágenes títulos y alt.
+•	Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "deporte, futbol, vóley, bochas, natación, rolon, la pampa, club, institución deportiva, actividad, recreativa, familia"
+•	Favicon: agregue un icono a head
+
+Titulo: para el titulo utilicé el texto “Centro Social y Deportivo Rolon - CSyDR”
+Encabezado: para el encabezado del h1 utilicé el texto “Bienvenidos al Centro Social y Deportivo Rolon”
+
+**********************************************************************************************************
+
+ En el archivo contacto.html sumé el SEO con las siguientes características:
+•	Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Mantente conectado con tu institución.
+•	Toda la información al instante
+Resultados en vivo, próximos eventos, información deportiva, actividades grupales o individuales…"
+•	Titulos multimedia: le agregue a las imágenes títulos y alt.
+•	Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "deporte, futbol, vóley, bochas, natación, rolon, la pampa, club, institución deportiva, actividad, recreativa, familia"
+•	Favicon: agregue un icono a head
+
+
+Titulo: para el titulo utilicé el texto “Contacto - Centro Social y Deportivo Rolon”
+
+Encabezado: para el encabezado del h1 utilicé el texto “Mantente siempre conectado”
+
+**********************************************************************************************************
+
+ En el archivo institucion.html sumé el SEO con las siguientes características:
+•	Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Mantente conectado con tu institución.
+•	Toda la información al instante
+Resultados en vivo, próximos eventos, información deportiva, actividades grupales o individuales…"
+•	Titulos multimedia: le agregue a las imágenes títulos y alt.
+•	Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "deporte, futbol, vóley, bochas, natación, rolon, la pampa, club, institución deportiva, actividad, recreativa, familia"
+•	Favicon: agregue un icono a head
+
+
+
+Titulo: para el titulo utilicé el texto “Institución - Centro Social y Deportivo Rolon”
+Encabezado: para el encabezado del h1 utilicé el texto “Nuestros Deportes”
+
+**********************************************************************************************************
+
+ En el archivo multimedia.html sumé el SEO con las siguientes características:
+•	Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Mantente conectado con tu institución.
+•	Toda la información al instante
+Resultados en vivo, próximos eventos, información deportiva, actividades grupales o individuales…"
+•	Titulos multimedia: le agregue a las imágenes títulos y alt.
+•	Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "deporte, futbol, vóley, bochas, natación, rolon, la pampa, club, institución deportiva, actividad, recreativa, familia"
+•	Favicon: agregue un icono a head
+
+
+Titulo: para el titulo utilicé el texto “Multimedia  - Centro Social y Deportivo Rolon”
+
+Encabezado: para el encabezado del h1 utilicé el texto “Multimedia”
+
+**********************************************************************************************************
+
+ En el archivo socio.html sumé el SEO con las siguientes características:
+•	Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Mantente conectado con tu institución.
+•	Toda la información al instante
+Resultados en vivo, próximos eventos, información deportiva, actividades grupales o individuales…"
+•	Titulos multimedia: le agregue a las imágenes títulos y alt.
+•	Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "deporte, futbol, vóley, bochas, natación, rolon, la pampa, club, institución deportiva, actividad, recreativa, familia"
+•	Favicon: agregue un icono a head
+
+
+Titulo: para el titulo utilicé el texto “Socio - Centro Social y Deportivo Rolon”
+
+Encabezado: para el encabezado del h1 utilicé el texto “Departamento del Socio”
+
+
+
