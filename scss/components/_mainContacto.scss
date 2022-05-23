@@ -1,0 +1,80 @@
+@import '../base/variables';
+@import '../base/mapas';
+@import '../base/extends';
+@import '../base/mixin';
+
+.main {
+    @extend %flex;
+    background-color: $bg-color-main;
+
+    .tituloMain {
+        font-family: tahoma;
+        font-size: 20px;
+        color: $bg-color-general;
+        margin: 20px;
+    }
+
+    .redesContacto {
+        width: 50px;
+        margin: 30px;
+
+        &:hover {
+            transition-property: all;
+            transition-duration: 1s;
+            width: 60px;
+        }
+    }
+
+    .mensaje {
+        display: flex;
+        justify-content: center;
+
+        .formMsj {
+            width: 60%;
+            height: 20%;
+            border: solid 1px black;
+            padding: 10px;
+            background: #f39608;
+
+            .btnEnviar {
+                background: #02236D;
+            }
+        }
+    }
+
+    .mapamapa {
+        .mapa {
+            width: 60%;
+            height: 100%;
+        }
+    }
+
+    .contactoUbicacion {
+        height: 40%;
+        width: 60%;
+        background-color: #282940;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenidoUbicacion {
+        color: white;
+        font-family: arial;
+        padding: 15px;
+    }
+
+    /*******media queris**********/
+    /*tablet*/
+    @media (max-width: 450px) {
+        .estrella {
+            height: 14px;
+        }
+    }
+
+    /*mobile*/
+    @media (max-width: 450px) {
+        .estrella {
+            width: 300px;
+        }
+    }
+}

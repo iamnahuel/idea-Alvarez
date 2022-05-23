@@ -1,0 +1,58 @@
+@import '../base/variables';
+@import '../base/mapas';
+@import '../base/extends';
+@import '../base/mixin';
+
+.main {
+    @extend %flex;
+    background-color: $bg-color-main;
+
+    .tituloMain {
+        font-family: tahoma;
+        font-size: 20px;
+        color: $bg-color-general;
+        margin: 20px;
+    }
+
+    .wallpaper {
+        .wallpaperInstitucion {
+            width: 100%;
+            opacity: 0.8;
+        }
+    }
+
+    .sectionDeportes {
+        display: flex;
+        justify-content: center;
+
+        .deportes {
+            width: 80%;
+            margin: 15px;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        &:hover {
+            opacity: 0.7;
+            cursor: pointer;
+        }
+    }
+
+    .seccionHistoria {
+        padding: 30px;
+    }
+
+    .seccionDirectivos {
+        .tituloDirectivos {
+            color: #1C1E36;
+            font-size: 24px;
+            font-family: tahoma;
+        }
+        .directivos{
+            .imagenesDirectivos{
+                width: 300px;
+            }
+        }
+
+    }
+}

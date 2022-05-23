@@ -1,5 +1,9 @@
+@charset "UTF-8";
 /* nesting a anidamiento*/
 /*variables*/
+.disclaimer{
+display: none;
+}
 header {
   background: #003290;
   width: 100%;
@@ -172,6 +176,267 @@ header div a img:hover {
 * {
   margin: 0;
   padding: 0;
+}
+
+/*variables*/
+/*Mapas*/
+/*extends*/
+.main {
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  background-color: #e5e8f0;
+  /*******media queris**********/
+  /*tablet*/
+  /*mobile*/
+}
+.main .tituloMain {
+  font-family: tahoma;
+  font-size: 20px;
+  color: #003290;
+  margin: 20px;
+}
+.main .redesContacto {
+  width: 50px;
+  margin: 30px;
+}
+.main .redesContacto:hover {
+  transition-property: all;
+  transition-duration: 1s;
+  width: 60px;
+}
+.main .mensaje {
+  display: flex;
+  justify-content: center;
+}
+.main .mensaje .formMsj {
+  width: 60%;
+  height: 20%;
+  border: solid 1px black;
+  padding: 10px;
+  background: #f39608;
+}
+.main .mensaje .formMsj .btnEnviar {
+  background: #02236D;
+}
+.main .mapamapa .mapa {
+  width: 60%;
+  height: 100%;
+}
+.main .contactoUbicacion {
+  height: 40%;
+  width: 60%;
+  background-color: #282940;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main .contenidoUbicacion {
+  color: white;
+  font-family: arial;
+  padding: 15px;
+}
+@media (max-width: 450px) {
+  .main .estrella {
+    height: 14px;
+  }
+}
+@media (max-width: 450px) {
+  .main .estrella {
+    width: 300px;
+  }
+}
+
+/*variables*/
+/*Mapas*/
+/*extends*/
+.main {
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  background-color: #e5e8f0;
+}
+.main .tituloMain {
+  font-family: tahoma;
+  font-size: 20px;
+  color: #003290;
+  margin: 20px;
+}
+.main .wallpaper .wallpaperInstitucion {
+  width: 100%;
+  opacity: 0.8;
+}
+.main .sectionDeportes {
+  display: flex;
+  justify-content: center;
+}
+.main .sectionDeportes .deportes {
+  width: 80%;
+  margin: 15px;
+  justify-content: center;
+  cursor: pointer;
+}
+.main .sectionDeportes:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.main .seccionHistoria {
+  padding: 30px;
+}
+.main .seccionDirectivos .tituloDirectivos {
+  color: #1C1E36;
+  font-size: 24px;
+  font-family: tahoma;
+}
+.main .seccionDirectivos .directivos .imagenesDirectivos {
+  width: 300px;
+}
+
+/*variables*/
+/*Mapas*/
+/*extends*/
+.main {
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  background-color: #e5e8f0;
+}
+.main .tituloMain {
+  font-family: tahoma;
+  font-size: 20px;
+  color: #003290;
+  margin: 20px;
+}
+.main .dropdownPadre {
+  display: flex;
+  padding-left: 30px;
+}
+.main .dropdownPadre .dropdown .dropdown-toggle {
+  background-color: #003290;
+}
+.main .dropdownPadre .dropdown .dropdown-toggle:hover {
+  background-color: #003290;
+}
+.main .dropdownPadre .dropdown-menu .dropdown-item:hover {
+  background-color: #003290;
+  color: white;
+}
+.main .multimediaImagenes {
+  /*******media queris**********/
+  /*tablet*/
+  /*mobile*/
+}
+.main .multimediaImagenes .carruselImagenes .imagenesMultimedia {
+  width: 300px;
+  cursor: pointer;
+}
+.main .multimediaImagenes .carruselImagenes .imagenesMultimedia:hover {
+  opacity: 0.7;
+  animation: changeWidth 3s;
+}
+@media (max-width: 450px) {
+  .main .multimediaImagenes .puntos {
+    width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  .main .multimediaImagenes .puntos {
+    width: 300px;
+  }
+}
+.main .multimediaVideos {
+  /*******media queris**********/
+  /*tablet*/
+  /*mobile*/
+}
+.main .multimediaVideos .videosMultimedia {
+  height: 220px;
+}
+.main .multimediaVideos .videosMultimedia:hover {
+  opacity: 0.7;
+}
+@media (max-width: 450px) {
+  .main .multimediaVideos .puntos {
+    width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  .main .multimediaVideos .puntos {
+    width: 300px;
+  }
+}
+
+/*variables*/
+/*Mapas*/
+/*extends*/
+.main {
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  background-color: #e5e8f0;
+}
+.main .tituloMain {
+  font-family: tahoma;
+  font-size: 20px;
+  color: #003290;
+  margin: 20px;
+}
+.main .wallpaper .wallpaperSocios {
+  width: 100%;
+  opacity: 0.8;
+}
+.main .seccionInformacioSocio .ulSocios {
+  padding: 30px;
+}
+.main .seccionInformacioSocio .ulSocios .liSocios::before {
+  content: "♥";
+  color: #f39608;
+}
+.main .horarios .horariosSocios {
+  height: 40%;
+  width: 60%;
+  background-color: #282940;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main .horarios .horariosSocios .tituoHorarios {
+  padding-top: 15px;
+  color: #f39608;
+  font-family: verdana;
+}
+.main .horarios .horariosSocios .contenidoHorarios {
+  color: white;
+  font-family: arial;
+  padding: 15px;
+}
+.main .registrarse {
+  align-content: center;
+}
+.main .registrarse .registraseSocio {
+  height: 40%;
+  width: 60%;
+  background-color: #f39608;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.main .socioInfo {
+  align-content: center;
+}
+.main .socioInfo .socioInformacion {
+  height: 40%;
+  width: 60%;
+  background-color: #f39608;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

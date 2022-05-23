@@ -1,0 +1,81 @@
+@import '../base/variables';
+@import '../base/mapas';
+@import '../base/extends';
+@import '../base/mixin';
+
+.main {
+    @extend %flex;
+    background-color: $bg-color-main;
+
+    .tituloMain {
+        font-family: tahoma;
+        font-size: 20px;
+        color: $bg-color-general;
+        margin: 20px;
+    }
+
+    .wallpaper {
+        .wallpaperSocios {
+            width: 100%;
+            opacity: 0.8;
+        }
+    }
+
+    .seccionInformacioSocio {
+        .ulSocios {
+            padding: 30px;
+            .liSocios::before {
+                content: "♥";
+                color: #f39608;
+            }
+        }
+    }
+
+    .horarios {
+        .horariosSocios {
+            height: 40%;
+            width: 60%;
+            background-color: #282940;
+            margin-left: auto;
+            margin-right: auto;
+
+            .tituoHorarios {
+                padding-top: 15px;
+                color: #f39608;
+                font-family: verdana;
+            }
+
+            .contenidoHorarios {
+                color: white;
+                font-family: arial;
+                padding: 15px;
+            }
+        }
+    }
+
+    .registrarse {
+        align-content: center;
+
+        .registraseSocio {
+            height: 40%;
+            width: 60%;
+            background-color: #f39608;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+        }
+    }
+
+    .socioInfo {
+        align-content: center;
+
+        .socioInformacion {
+            height: 40%;
+            width: 60%;
+            background-color: #f39608;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+        }
+    }
+}
