@@ -1,9 +1,9 @@
 @charset "UTF-8";
+.disclaimer{
+  display: none;
+}
 /* nesting a anidamiento*/
 /*variables*/
-.disclaimer{
-display: none;
-}
 header {
   background: #003290;
   width: 100%;
@@ -17,8 +17,6 @@ header {
 }
 header div a img {
   margin-top: 20px;
-  margin-left: 100px;
-  margin-right: 20px;
   width: 80px;
   width: 80px;
 }
@@ -28,6 +26,7 @@ header div a img:hover {
   width: 90px;
 }
 
+/*variables*/
 .footer {
   background: #003290;
   width: 100%;
@@ -57,6 +56,12 @@ header div a img:hover {
   margin-left: 10px;
   margin-right: 0px;
   width: 40px;
+}
+.footer .iconosRedes .iconosFooter:hover {
+  color: #f39608;
+  background-color: #f39608;
+  padding: 3px;
+  border-radius: 50%;
 }
 
 /*variables*/

@@ -15,14 +15,13 @@ header {
         a {
             img {
                 margin-top: 20px;
-                margin-left: 100px;
-                margin-right: 20px;
                 width: 80px;
                 width: 80px;
-                &:hover{
+
+                &:hover {
                     transition-property: all;
                     transition-duration: 1s;
-                    width: 90px; 
+                    width: 90px;
                 }
             }
         }

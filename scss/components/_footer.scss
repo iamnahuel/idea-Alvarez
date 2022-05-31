@@ -1,3 +1,5 @@
+@import '../base/variables';
+
 .footer {
     background: #003290;
     width: 100%;
@@ -16,7 +18,7 @@
         color: white;
         display: flex;
         align-items: center;
-
+       
         .imagenFooter {
             width: 60px;
             height: 69px;
@@ -31,6 +33,13 @@
             margin-left: 10px;
             margin-right: 0px;
             width: 40px;
+            &:hover{
+                color: $bg-color-secuandario;
+                background-color: $bg-color-secuandario;
+                padding: 3px;
+                border-radius: 50%;
+                
+            }
         }
     }
 }
